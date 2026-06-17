@@ -1,0 +1,34 @@
+Plot_ID,Unique ID of plot,,,,
+Site,District of sampling,,,,
+Line,Line of sampling,,,List of Plots to be Redone,
+Plot,Plot of sampling,,,NCF_88,Flare and dark
+Distance_ID,"Distance Categories based on distance of plot from Edge; A= Edge, C= Interior most",,,NCF48,too dark
+% Sky Area    ,the percent area of the sky hemisphere found above the effective horizon,,,NCF66,too dark
+% Mask Area   ,percent area of the sky hemisphere that is obstructed by the surrounding topography,,,KDM_L3_Q2,"too dark, enlarged"
+% Cnpy Open   ,percentage of open sky seen from beneath a forest canopy,,,MG_L4_P4,too bright
+% Site Open   ,percentage of open sky seen from beneath a forest canopy given the influence of an effective horizon that is less than 90o (topographic shading),,,MG_L10_Q2,absent
+LAI 4Ring     ,effective leaf area index integrated over the zenith angles 0 to 60o,,,KT20_L1_P1,too dark
+LAI 5Ring     ,effective leaf area index integrated over the zenith angle 0 to 75o,,,DG_L3_P7,Flare and dark
+Units         ,unit of measure used to represent solar irradiance estimates,,,KDM_L1_P2,Lit canopy
+RB            ,beam tilt factor computed for an arbitrarily tilted surface,,,KT21_L4_P1,Lit canopy
+RD            ,diffuse tilt factor computed for an arbitrarily tilted surface,,,MG_L3_P2,Lit canopy
+Extra         ,Total Shortwave Extraterrestrial Radiation,,,MG_L3_Q1,Lit canopy
+Abv Dir       ,amount of direct (beam) radiation incident on a horizontal or tilted surface located at the earth surface without any effect of topography or forest canopy,,,MG_L5_P4,Lit canopy
+Abv Dif       ,amount of diffuse radiation incident on a horizontal or tilted surface located at the earth surface without any effect of topography or forest canopy,,,,
+Abv Tot       ,sum of the Above Direct and Above Diffuse,,,,
+Abv Dir Msk   ,amount of direct radiation incident on a horizontal or tilted surface taking into account the effect of a topographic mask.,,,,
+Abv Dif Msk   ,"amount of diffuse radiation incident on a horizontal or tilted surface taking into account the effect of a topographic mask
+",,,,
+Abv Tot Msk   ,sum of Above Direct Mask and Above Diffuse Mask,,,,
+Trans Dir     ,amount of direct solar radiation transmitted by the canopy and topographic mask,,,,
+Trans Dif     ,amount of diffuse solar radiation transmitted by the canopy and topographic mask,,,,
+Trans Tot     ,sum of Trans Direct and Trans Diffuse,,,,
+% Trans Dir   ,ratio of Trans Direct to Above Direct Mask multiplied by 100%,,,,
+% Trans Dif   ,ratio of Trans Diffuse to Above Diffuse Mask multiplied by 100%,,,,
+% Trans Tot   ,ratio of Trans Total to Above Total Mask multiplied by 100%.,,,,
+Image_ID,Unique ID of the image used for analysis,,,,
+Date          ,Date of analysis,,,,
+Time          ,Time of Analysis,,,,
+Reg_Coord,"Image coordinates for the registered Image: Initial X, Initial Y, Final X, Final Y",,,,
+"Cx,Cy,Radius",X and Y coordinates for the centre of image and the Radius,,,,
+,these highlighted rows contain data from the redone images,,,,
